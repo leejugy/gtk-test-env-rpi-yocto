@@ -1,0 +1,31 @@
+{
+    "files.associations": {
+        "gtk.h": "c",
+        "time.h": "c",
+        "gtkaboutdialog.h": "c",
+        "gdk.h": "c",
+        "gdkconfig.h": "c",
+        "glib.h": "c",
+        "galloca.h": "c",
+        "gtypes.h": "c",
+        "gdkcairo.h": "c",
+        "gdkapplaunchcontext.h": "c",
+        "gdkscreen.h": "c",
+        "gdktypes.h": "c",
+        "garray.h": "c",
+        "glibconfig.h": "c",
+        "gmacros.h": "c",
+        "gdkversionmacros.h": "c",
+        "pango.h": "c",
+        "pango-bidi-type.h": "c",
+        "pango-attributes.h": "c",
+        "pango-font.h": "c",
+        "pango-types.h": "c",
+        "pango-coverage.h": "c",
+        "pango-version-macros.h": "c",
+        "alloca.h": "c",
+        "string.h": "c",
+        "gversionmacros.h": "c",
+        "stdio.h": "c"
+    }
+}
