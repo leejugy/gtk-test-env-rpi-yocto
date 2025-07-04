@@ -101,6 +101,7 @@ sdk가 설치될 디렉토리를 지정합니다. 기본 값도 괜찮습니다.
 자꾸 빌드에 실패하면 코어 수를 제한합니다.
 
 우선 빌드를 다시 수행해야 하므로 아래 명령을 실행합니다.
+
 **bash**
 ```bash
 bitbake core-image-weston -c cleanall
@@ -134,6 +135,7 @@ cp core-image-weston-raspberrypi4-64.rootfs.wic [윈도우 특정 디렉토리]
 blanaetcher를 다운로드 받아 sd카드에 플래싱합니다.
 
 혹은 리눅스 환경인 경우 poky/build-rpi/tmp/deploy/images/raspberrypi4-64 경로에서 다음 명령을 수행합니다.
+
 **bash**
 ```bash
 sudo dd if=core-image-weston-raspberrypi4-64.rootfs.wic of=[sd카드 블록 디바이스 장치노드, 대부분 /dev/mmcblk0] bs=1M stutus=progress
