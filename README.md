@@ -100,6 +100,12 @@ sdk가 설치될 디렉토리를 지정합니다. 기본 값도 괜찮습니다.
 
 자꾸 빌드에 실패하면 코어 수를 제한합니다.
 
+우선 빌드를 다시 수행해야 하므로 아래 명령을 실행합니다.
+**bash**
+```bash
+bitbake core-image-weston -c cleanall
+```
+
 **poky/build-rpi/conf/local.conf**
 ```bitbake
 BB_NUMBER_THREADS = "6"
